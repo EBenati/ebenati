@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Applying for Jobs</title>
+</head>
+<body>
+
+    <h1>Job Application</h1>
+    <p>Tell us a little bit about you</p>
+
+    <form>
+        <fieldset class="personal-info">
+            <h3>Personal Information</h3>
+            <div class="field-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" focus>         
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname">
+            </div>
+            <div class="field-email">
+                <label>Email Address</label>
+                <input type="email" id="email">
+            </div>  
+            <div class="gender-age">
+                <label>Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>    
+                <label>Age</label>
+                <input type="number" name="age" id="age">
+            </div>          
+        </fieldset>
+        <div class="professional-info">
+            <h3>Professional Information</h3>
+            <div class="tech">
+                <label>Technology:</label>
+                <input type="checkbox" name="technology" class="technology" value="html">
+                <label for="technology">HTML</label>
+                <input type="checkbox" name="technology" class="technology" value="css">
+                <label for="technology">CSS</label>
+                <input type="checkbox" name="technology" class="technology" value="js">
+                <label for="technology">JavaScript</label>
+                <input type="checkbox" name="technology" class="technology" value="react">
+                <label for="technology">React</label>
+                <input type="checkbox" name="technology" class="technology" value="php">
+                <label for="technology">PHP</label>
+                <input type="checkbox" name="technology" class="technology" value="python">
+                <label for="technology">Python</label>
+                <input type="checkbox" name="technology" class="technology" value="c++">
+                <label for="technology">C++</label>
+                <label for>Others </label><input type="text">
+            </div>
+            <div class="job-experience">
+                <h3>Job Experience</h3>
+                <label for="company">Company: </label>
+                <input type="text" name="company" id="company">  
+                <label for="function">Function</label>
+                <input type="text" name="function" id="function">
+                <label for="time">Time in the Company</label>
+                <input type="text" name="time" id="time">
+            </div>                 
+        </div>
+        <div class="aboutme">
+                <h3>Tell Us More About You</h3>
+                <textarea name="aboutme" id="aboutme" cols="30" rows="10"></textarea>
+              
+        </div>
+        <div class="apply">
+               <input type="submit" value="Apply">
+        </div>
+        
+       
+    </form>
+</body>
+</html>
