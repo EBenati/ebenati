@@ -1,0 +1,146 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body
+{
+    display: flex;    
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    background-color: rgb(243, 243, 243);
+
+}
+
+#wrapper
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 55%;
+    min-height: 100vh;
+}
+
+#phone-img
+{   
+    display: flex;
+    align-items: center;    
+    width: 40%;
+    min-height: 100vh;
+}
+
+.img
+{
+    width: 40vw;
+}
+
+.img-instagram
+{
+    width: 15vw;
+    padding: 1rem 2rem;
+}
+
+#log-area
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 60%;
+    min-height: 100vh;
+    
+    
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid lightgray;
+    width: 50%;
+    padding: 2rem 5rem;
+    background-color: white;
+}
+
+.log
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:60vw;
+    padding: 2rem 5rem;
+    
+}
+
+input
+{
+    width: 13vw;
+    padding: 0.5rem 1rem;
+}
+
+button
+{
+    width: 13vw;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(72, 146, 241);
+    border: none;
+    color: white;
+}
+
+span
+{
+    padding-bottom: 1rem;
+}
+
+.signup 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    padding: 2rem;
+    width: 50%;
+    background-color: white;
+    margin: 1rem;
+    color: blue;
+}
+
+.get-the-app
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.store
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.android-app
+{
+    width: 50%;
+}
+
+.apple-app
+{
+    width: 50%;
+}
+
