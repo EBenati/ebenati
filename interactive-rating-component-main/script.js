@@ -12,26 +12,31 @@ let grade;
 
 one.addEventListener("click", function(){
     grade = 1;
+    one.style.backgroundColor =" hsl(25, 97%, 53%)";
     console.log(grade)
 })
 
 two.addEventListener("click", function(){
     grade = 2;
+    two.style.backgroundColor =" hsl(25, 97%, 53%)";
     console.log(grade)
 })
 
 three.addEventListener("click", function(){
     grade = 3;
+    three.style.backgroundColor = "hsl(25, 97%, 53%)";
     console.log(grade)
 })
 
 four.addEventListener("click", function(){
     grade = 4;
+    four.style.backgroundColor = "hsl(25, 97%, 53%)";
     console.log(grade)
 })
 
 five.addEventListener("click", function(){
     grade = 5;
+    five.style.backgroundColor = "hsl(25, 97%, 53%)";
     console.log(grade)
 })
 
